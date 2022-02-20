@@ -29,7 +29,7 @@ body{
   font-size: 35px;
   margin-left: 10px;
   border: 3px solid rgb(119, 219, 119);
-  width: 50%;
+  width: 50rem;
   height: 25rem;
   display: flex;
   justify-content: center;
@@ -37,17 +37,24 @@ body{
 
 }
 
-.tree{
-  width: 50%;
-  height: 25rem;
-  font-size: 35px;
+.new-plants{
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plant-box{
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 20px;
   border: 3px solid rgb(119, 219, 119);
   margin-left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3px;
 }
 
-.tree-text{
+.plant-text{
   color: green;
 }
