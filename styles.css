@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.clicker-box{
+  display: flex;
+  border-radius: 2px;
+  border: 3px solid rgb(1, 80, 1);
+  width: 50%;
+  height: 25rem;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.clicker-box:click{
+  background-color: rgb(45, 87, 45);
+}
+
+.click-words{
+  font-size: 35px;
+}
+
+.score-box{
+  font-size: 35px;
+  margin-left: 10px;
+  border: 3px solid rgb(119, 219, 119);
+  width: 50%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tree{
+  width: 50%;
+  height: 25rem;
+  font-size: 35px;
+  border: 3px solid rgb(119, 219, 119);
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tree-text{
+  color: green;
+}
